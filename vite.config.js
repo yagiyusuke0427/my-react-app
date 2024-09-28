@@ -10,4 +10,7 @@ export default defineConfig({
         }),
         react(), // Reactプラグインを追加
     ],
+    build: {
+        outDir: 'public/build', // 出力先を指定
+    },
 });
